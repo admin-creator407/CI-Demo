@@ -1,4 +1,4 @@
-name: My first CI
+name: My First CI
 
 on:
   push:
@@ -7,6 +7,6 @@ jobs:
   hello:
     runs-on: ubuntu-latest
 
-  steps:
-    -name: Print Message
-    run: echo "Hello from CI"
+    steps:
+      - name: Print Message
+        run: echo "Hello from CI"
