@@ -16,4 +16,4 @@ jobs:
 
       - run: npm install
 
-      - run: echo "CI is working"
+      - run: npm run build
